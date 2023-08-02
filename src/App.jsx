@@ -14,8 +14,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Home />
-      <Middle />
+      <Home />
+      {/* <Middle />
       <Destinations />
       <Portfolio />
       <Reviews />
