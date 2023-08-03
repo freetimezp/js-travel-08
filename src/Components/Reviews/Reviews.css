@@ -1,1 +1,67 @@
-/*# sourceMappingURL=Reviews.css.map */
+:root {
+  --primaryColor: hsl(14, 90%, 53%);
+  --primaryColorLight: hsl(14, 96%, 91%);
+  --bgColor: hsla(0, 0%, 100%, 0.797);
+  --formColor: hsl(20, 42%, 87%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 51%);
+  --inputColor: hsl(330, 12%, 97%);
+  --cardColor: hsl(300, 3%, 94%);
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 2rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 3rem;
+}
+
+.review .secContainer .textDiv .redText {
+  font-size: var(--smallFontSize);
+  display: block;
+  color: var(--primaryColor);
+  font-weight: 700;
+}
+.review .secContainer .textDiv h3 {
+  font-size: var(--h2FontSize);
+  color: var(--blackColor);
+  padding: 1rem 0;
+}
+.review .secContainer .textDiv p {
+  color: var(--blackColor);
+}
+.review .secContainer .textDiv .stars {
+  gap: 0.2rem;
+  padding: 1rem 0;
+  justify-content: center;
+}
+.review .secContainer .textDiv .stars .icon {
+  color: var(--primaryColor);
+  font-size: var(--h3FontSize);
+}
+.review .secContainer .textDiv .clientsImages {
+  gap: 1rem;
+  justify-content: center;
+}
+.review .secContainer .textDiv .clientsImages img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 0 2px 2px rgb(251, 212, 194);
+}
+.review .imgDiv {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.review .imgDiv img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Reviews.css.map */

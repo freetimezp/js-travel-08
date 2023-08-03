@@ -18,8 +18,8 @@ function App() {
       <Middle />
       <Destinations />
       <Portfolio />
-      {/* <Reviews />
-      <Questions />
+      <Reviews />
+      {/* <Questions />
       <Subscribe />
       <Footer /> */}
     </div>
