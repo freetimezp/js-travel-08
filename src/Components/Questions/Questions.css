@@ -1,1 +1,93 @@
-/*# sourceMappingURL=Questions.css.map */
+:root {
+  --primaryColor: hsl(14, 90%, 53%);
+  --primaryColorLight: hsl(14, 96%, 91%);
+  --bgColor: hsla(0, 0%, 100%, 0.797);
+  --formColor: hsl(20, 42%, 87%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 51%);
+  --inputColor: hsl(330, 12%, 97%);
+  --cardColor: hsl(300, 3%, 94%);
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 2rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 3rem;
+}
+
+.accordionContainer .title {
+  font-size: var(--normalFontSize);
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  justify-content: space-between;
+  background: var(--primaryColorLight);
+}
+.accordionContainer .title span {
+  cursor: pointer;
+  z-index: 10;
+}
+.accordionContainer .title span .icon {
+  font-size: 1.3rem;
+  color: var(--blackColor);
+  cursor: pointer;
+}
+.accordionContainer .description {
+  font-size: var(--smallFontSize);
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  height: 0;
+  opacity: 0;
+  padding: 0 1rem;
+  background: var(--cardColor);
+  border-radius: 0 0 10px 10px;
+  color: var(--blackColor);
+  transition: all 0.4s ease-in-out;
+}
+.accordionContainer .show {
+  height: 140px;
+  opacity: 1;
+}
+.accordionContainer .activeTitle {
+  background: var(--primaryColorLight);
+  border-radius: 10px 10px 0 0;
+}
+
+.questions .secHeading h3,
+.questions .secHeading h4 {
+  padding-bottom: 1.5rem;
+}
+.questions .secHeading p {
+  font-size: var(--smallFontSize);
+  color: var(--blackColor);
+  padding-bottom: 1rem;
+}
+.questions .form .formContent {
+  gap: 1rem;
+}
+.questions .form .formContent input,
+.questions .form .formContent textarea {
+  background: var(--cardColor);
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: var(--borderRadius);
+}
+.questions .form .formContent input::-moz-placeholder, .questions .form .formContent textarea::-moz-placeholder {
+  font-size: var(--smallFontSize);
+  color: var(--blackColor);
+}
+.questions .form .formContent input::placeholder,
+.questions .form .formContent textarea::placeholder {
+  font-size: var(--smallFontSize);
+  color: var(--blackColor);
+}
+.questions .form .formContent textarea {
+  height: 100px;
+  border-radius: 10px;
+}/*# sourceMappingURL=Questions.css.map */
