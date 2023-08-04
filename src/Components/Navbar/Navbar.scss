@@ -97,3 +97,58 @@
         transform: translate(-50%) scale(1);
     }
 }
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        .logoDiv {
+            span {
+                font-size: var(--h2FontSize);
+            }
+        }
+
+        .closeIcon,
+        .menuIcon {
+            display: none;
+        }
+
+        .menu {
+            ul {
+                display: flex;
+                gap: 1rem;
+
+                li {
+                    font-size: var(--h3FontSize);
+                    font-weight: 500;
+                    padding: 1rem 0;
+                    text-align: center;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in;
+
+                    &:hover {
+                        color: var(--primaryColor);
+                        border-bottom: 1px solid var(--primaryColor);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .navbar {
+        padding: 2rem 6rem;
+
+        .menu {
+            ul {
+                gap: 4rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .navbar {
+        padding: 2rem 14rem;
+    }
+}

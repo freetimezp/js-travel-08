@@ -89,4 +89,43 @@
 .navbar .showNavbar {
   top: 8rem;
   transform: translate(-50%) scale(1);
+}
+
+@media screen and (min-width: 768px) {
+  .navbar .logoDiv span {
+    font-size: var(--h2FontSize);
+  }
+  .navbar .closeIcon,
+  .navbar .menuIcon {
+    display: none;
+  }
+  .navbar .menu ul {
+    display: flex;
+    gap: 1rem;
+  }
+  .navbar .menu ul li {
+    font-size: var(--h3FontSize);
+    font-weight: 500;
+    padding: 1rem 0;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+  .navbar .menu ul li:hover {
+    color: var(--primaryColor);
+    border-bottom: 1px solid var(--primaryColor);
+  }
+}
+@media screen and (min-width: 1240px) {
+  .navbar {
+    padding: 2rem 6rem;
+  }
+  .navbar .menu ul {
+    gap: 4rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .navbar {
+    padding: 2rem 14rem;
+  }
 }/*# sourceMappingURL=Navbar.css.map */
