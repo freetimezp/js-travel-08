@@ -46,3 +46,149 @@
         }
     }
 }
+
+@media screen and (min-width: 480px) {
+    .portfolio {
+        .secContainer {
+            .leftContent {
+                .secHeading {
+                    h3 {
+                        font-size: var(--h2FontSize);
+                    }
+
+                    p {
+                        font-size: var(--normalFontSize);
+                        padding: 0.5rem 0;
+                    }
+                }
+
+                .grid {
+                    .singlePortfolio {
+                        gap: 1.1rem;
+
+                        .iconDiv {
+                            svg {
+                                height: 70px;
+                                width: 70px;
+                            }
+                        }
+
+                        .info {
+                            h4 {
+                                font-size: var(--h3FontSize);
+                            }
+
+                            p {
+                                font-size: var(--normalFontSize);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 660px) {
+    .portfolio {
+        .secContainer {
+            .leftContent {
+                .secHeading {
+                    h3 {
+                        font-size: 2rem;
+                    }
+
+                    p {
+                        font-size: var(--h3FontSize);
+                    }
+                }
+
+                .grid {
+                    grid-template-columns: repeat(2, 1fr);
+
+                    .singlePortfolio {
+                        gap: 1.5rm;
+                    }
+                }
+            }
+
+            .rightContent {
+                img {
+                    width: 65%;
+                    display: block;
+                    margin: auto;
+                    border-radius: 15rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .portfolio {
+        .secContainer {
+            grid-template-columns: repeat(2, 1fr);
+
+            .leftContent {
+                .secHeading {
+                    h3 {
+                        font-size: var(--h2FontSize);
+                    }
+
+                    p {
+                        font-size: var(--h3FontSize);
+                    }
+                }
+
+                .grid {
+                    grid-template-columns: repeat(1, 1fr);
+
+                    .singlePortfolio {
+                        gap: 1.5rem;
+                    }
+                }
+            }
+
+            .rightContent {
+                img {
+                    max-width: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .portfolio {
+        .secContainer {
+            gap: 3rem;
+
+            .leftContent {
+                .secHeading {
+                    h3 {
+                        font-size: 2rem;
+                    }
+
+                    p {
+                        font-size: var(--h3FontSize);
+                    }
+                }
+
+                .grid {
+                    gap: 2.5rem;
+                    margin-top: 3rem;
+
+                    .singlePortfolio {
+                        gap: 2rem;
+                    }
+                }
+            }
+
+            .rightContent {
+                img {
+                    width: 90%;
+                }
+            }
+        }
+    }
+}

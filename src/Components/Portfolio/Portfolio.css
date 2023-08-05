@@ -31,4 +31,88 @@
 }
 .portfolio .secContainer .leftContent .grid .singlePortfolio .info h4 {
   padding-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  .portfolio .secContainer .leftContent .secHeading h3 {
+    font-size: var(--h2FontSize);
+  }
+  .portfolio .secContainer .leftContent .secHeading p {
+    font-size: var(--normalFontSize);
+    padding: 0.5rem 0;
+  }
+  .portfolio .secContainer .leftContent .grid .singlePortfolio {
+    gap: 1.1rem;
+  }
+  .portfolio .secContainer .leftContent .grid .singlePortfolio .iconDiv svg {
+    height: 70px;
+    width: 70px;
+  }
+  .portfolio .secContainer .leftContent .grid .singlePortfolio .info h4 {
+    font-size: var(--h3FontSize);
+  }
+  .portfolio .secContainer .leftContent .grid .singlePortfolio .info p {
+    font-size: var(--normalFontSize);
+  }
+}
+@media screen and (min-width: 660px) {
+  .portfolio .secContainer .leftContent .secHeading h3 {
+    font-size: 2rem;
+  }
+  .portfolio .secContainer .leftContent .secHeading p {
+    font-size: var(--h3FontSize);
+  }
+  .portfolio .secContainer .leftContent .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio .secContainer .leftContent .grid .singlePortfolio {
+    gap: 1.5rm;
+  }
+  .portfolio .secContainer .rightContent img {
+    width: 65%;
+    display: block;
+    margin: auto;
+    border-radius: 15rem;
+  }
+}
+@media screen and (min-width: 820px) {
+  .portfolio .secContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio .secContainer .leftContent .secHeading h3 {
+    font-size: var(--h2FontSize);
+  }
+  .portfolio .secContainer .leftContent .secHeading p {
+    font-size: var(--h3FontSize);
+  }
+  .portfolio .secContainer .leftContent .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .portfolio .secContainer .leftContent .grid .singlePortfolio {
+    gap: 1.5rem;
+  }
+  .portfolio .secContainer .rightContent img {
+    max-width: 70%;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .portfolio .secContainer {
+    gap: 3rem;
+  }
+  .portfolio .secContainer .leftContent .secHeading h3 {
+    font-size: 2rem;
+  }
+  .portfolio .secContainer .leftContent .secHeading p {
+    font-size: var(--h3FontSize);
+  }
+  .portfolio .secContainer .leftContent .grid {
+    gap: 2.5rem;
+    margin-top: 3rem;
+  }
+  .portfolio .secContainer .leftContent .grid .singlePortfolio {
+    gap: 2rem;
+  }
+  .portfolio .secContainer .rightContent img {
+    width: 90%;
+  }
 }/*# sourceMappingURL=Portfolio.css.map */
