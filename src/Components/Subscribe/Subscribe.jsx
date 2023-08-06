@@ -20,7 +20,7 @@ const Subscribe = () => {
 
                 <div className="textDiv">
                     <h4 data-aos="fade-down">Best Way To Start Your Journey!</h4>
-                    <p data-aos="fade-left">
+                    <p data-aos="fade-up">
                         We offer personalized itineraries tailored to
                         individual preferences and interests.
                     </p>

@@ -73,6 +73,7 @@
 .navbar .menuIcon,
 .navbar .closeIcon {
   font-size: var(--h1FontSize);
+  z-index: 1001;
 }
 .navbar .menuIcon:hover,
 .navbar .closeIcon:hover {

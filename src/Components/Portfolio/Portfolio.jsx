@@ -67,7 +67,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="rightContent">
-                    <img src={portfolioImage} alt="portfolio" data-aos="fade-left" />
+                    <img src={portfolioImage} alt="portfolio" data-aos="fade-down" />
                 </div>
             </div>
         </div>

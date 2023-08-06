@@ -25,7 +25,7 @@ const Reviews = () => {
                 <div className="textDiv">
                     <span className="redText" data-aos="fade-up">FROM OUR CLIENTS</span>
                     <h3 data-aos="fade-up">Real Travel History From Our Beloved Clients</h3>
-                    <p data-aos="fade-right">
+                    <p data-aos="fade-up">
                         By choosing us their tour agency, customers can expect an
                         enriching and enjoyable travel experience, filled with
                         unforgettable memmories thet will last a lifetime.
@@ -46,7 +46,7 @@ const Reviews = () => {
                     </div>
                 </div>
                 <div className="imgDiv">
-                    <img src={client5} alt="client" data-aos="fade-left" />
+                    <img src={client5} alt="client" data-aos="fade-down" />
                 </div>
             </div>
         </div>

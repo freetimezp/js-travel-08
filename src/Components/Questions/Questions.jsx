@@ -21,7 +21,7 @@ const Questions = () => {
                 <h3>Maybe you want to know this..</h3>
             </div>
             <div className="secContainer grid">
-                <div className="accordion grid" data-aos="fade-right">
+                <div className="accordion grid" data-aos="fade-up">
                     <Accordion
                         title="1. How di I choose the right destination for me?"
                         desc="Consider your interests, budget, desired experinces, and the type
@@ -61,14 +61,14 @@ const Questions = () => {
                 </div>
                 <div className="form">
                     <div className="secHeading">
-                        <h4 data-aos="fade-left">Do you have any specific questions?</h4>
-                        <p data-aos="fade-left">
+                        <h4 data-aos="fade-up">Do you have any specific questions?</h4>
+                        <p data-aos="fade-up">
                             Please fill the form below and our team will get
                             intouch with you as soon as possible.
                         </p>
                     </div>
 
-                    <div className="formContent grid" data-aos="fade-left">
+                    <div className="formContent grid" data-aos="fade-down">
                         <input type="email" placeholder="Enter email address" />
                         <textarea placeholder='Enter your question here'></textarea>
                         <button className='btn'>

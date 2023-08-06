@@ -72,7 +72,7 @@
   }
   .review .secContainer .textDiv h3 {
     font-size: 20px;
-    colro: var(--blackColor);
+    color: var(--blackColor);
   }
   .review .secContainer .textDiv p {
     color: var(--blackColor);
@@ -124,5 +124,13 @@
   .review .secContainer .textDiv p {
     font-size: var(--h3FontSize);
     line-height: 2rem;
+  }
+  .review .imgDiv {
+    height: 350px;
+    width: 100%;
+  }
+  .review .imgDiv img {
+    height: 100%;
+    width: 100%;
   }
 }/*# sourceMappingURL=Reviews.css.map */

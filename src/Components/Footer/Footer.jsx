@@ -19,7 +19,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className="secContainer container grid">
-                <div className="logoDiv" data-aos="fade-right">
+                <div className="logoDiv" data-aos="fade-up">
                     <div className="footerLogo">
                         <BiLogoMediumOld className='icon' />
                         <span>DREAM TRAVEL</span>
@@ -62,11 +62,10 @@ const Footer = () => {
                         <a href="#">Privacy</a>
                     </li>
                 </div>
-                <div className="footerLinks" data-aos="fade-left">
+                <div className="footerLinks">
                     <span className="linkTitle">Contact Details</span>
                     <span className="phone">+1 234 567 890</span>
                     <span className="email">travel@gmail.com</span>
-
                 </div>
             </div>
         </div>
