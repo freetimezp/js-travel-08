@@ -3,3 +3,4 @@ https://fonts.google.com/
 https://react-icons.github.io/react-icons/
 https://www.pexels.com/
 https://squoosh.app/
+https://michalsnik.github.io/aos/

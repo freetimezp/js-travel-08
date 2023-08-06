@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 import Accordion from '../Accordion/Accordion';
 
@@ -7,13 +9,19 @@ import './Questions.css';
 const Questions = () => {
     const [active, setActive] = useState('1. How di I choose the right destination for me?');
 
+    useEffect(() => {
+        Aos.init({
+            duration: 2000
+        });
+    }, []);
+
     return (
         <div className='questions sections container'>
-            <div className="secHeading">
+            <div className="secHeading" data-aos="fade-up">
                 <h3>Maybe you want to know this..</h3>
             </div>
             <div className="secContainer grid">
-                <div className="accordion grid">
+                <div className="accordion grid" data-aos="fade-right">
                     <Accordion
                         title="1. How di I choose the right destination for me?"
                         desc="Consider your interests, budget, desired experinces, and the type
@@ -53,14 +61,14 @@ const Questions = () => {
                 </div>
                 <div className="form">
                     <div className="secHeading">
-                        <h4>Do you have any specific questions?</h4>
-                        <p>
+                        <h4 data-aos="fade-left">Do you have any specific questions?</h4>
+                        <p data-aos="fade-left">
                             Please fill the form below and our team will get
                             intouch with you as soon as possible.
                         </p>
                     </div>
 
-                    <div className="formContent grid">
+                    <div className="formContent grid" data-aos="fade-left">
                         <input type="email" placeholder="Enter email address" />
                         <textarea placeholder='Enter your question here'></textarea>
                         <button className='btn'>

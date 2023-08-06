@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 import './Footer.css';
 
@@ -8,10 +10,16 @@ import { BsTwitter } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
 
 const Footer = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 2000
+        });
+    }, []);
+
     return (
         <div className='footer'>
             <div className="secContainer container grid">
-                <div className="logoDiv">
+                <div className="logoDiv" data-aos="fade-right">
                     <div className="footerLogo">
                         <BiLogoMediumOld className='icon' />
                         <span>DREAM TRAVEL</span>
@@ -24,7 +32,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="footerLinks">
+                <div className="footerLinks" data-aos="fade-up">
                     <span className="linkTitle">Information</span>
                     <li>
                         <a href="#">Home</a>
@@ -39,7 +47,7 @@ const Footer = () => {
                         <a href="#">Blog</a>
                     </li>
                 </div>
-                <div className="footerLinks">
+                <div className="footerLinks" data-aos="fade-up">
                     <span className="linkTitle">Helpful Links</span>
                     <li>
                         <a href="#">Destination</a>
@@ -54,7 +62,7 @@ const Footer = () => {
                         <a href="#">Privacy</a>
                     </li>
                 </div>
-                <div className="footerLinks">
+                <div className="footerLinks" data-aos="fade-left">
                     <span className="linkTitle">Contact Details</span>
                     <span className="phone">+1 234 567 890</span>
                     <span className="email">travel@gmail.com</span>
